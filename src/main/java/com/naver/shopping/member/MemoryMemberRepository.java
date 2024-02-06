@@ -9,7 +9,7 @@ public class MemoryMemberRepository implements MemberRepository {
     private static Map<Long, Member> store = new HashMap<>();
     @Override
     public void save(Member member) {
-        store.put(member.getId(), member); //key로 id사용하고 value에는 member 그 자페를 저장. 저장 구현
+        store.put(member.getId(), member); //key로 id사용하고 value에는 member 그 자체를 저장. 저장 구현
     }
 
     @Override
