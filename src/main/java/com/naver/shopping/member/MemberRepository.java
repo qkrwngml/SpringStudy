@@ -1,4 +1,4 @@
-//회원 저장, 값 가져오기 인터페이스
+//회원 저장, 값 가져오기 인터페이스(Repository)
 package com.naver.shopping.member;
 
 public interface MemberRepository {
